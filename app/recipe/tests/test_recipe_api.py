@@ -52,7 +52,7 @@ class PrivateRecipeAPITests(TestCase):
 
     def setUp(self) -> None:
         self.client = APIClient()
-        self.user = get_user_model().ojects.create_user(
+        self.user = get_user_model().objects.create_user(
             email='test@example.com',
             password='test_pass123',
             name='Test Name'
