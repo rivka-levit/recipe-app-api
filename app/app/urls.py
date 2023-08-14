@@ -25,5 +25,5 @@ urlpatterns = [
         name='aip-docs'
     ),
     path('api/user/', include('user.urls', namespace='user')),
-    path('aip/recipe/', include('recipe.urls')),
+    path('api/recipe/', include('recipe.urls')),
 ]
